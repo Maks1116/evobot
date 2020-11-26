@@ -4,7 +4,8 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX, activities_list } = require("./util/EvobotUtil");
+const { TOKEN, PREFIX } = require("./util/EvobotUtil");
+const {activities_list} = require("config.json")
 
 const client = new Client({ disableMentions: "everyone" });
 
