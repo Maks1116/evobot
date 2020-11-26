@@ -1,15 +1,15 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maks1116/evobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maks1116/coderdojo)
 
 **⚠️ Please note that I'm not good at English and I'm still learning it. If you see that I typed something wrong open issue in "issues" tab. ⚠️**
 
-**This is fork from eritislami's bot**
+**This is fork from eritislami's EvoBot**
 
-# 🤖 EvoBot (Discord Music Bot)
-> EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
+# 🤖 Coderdojo (Discord Music Bot)
+> Coderdojo is a Discord Music and Fun Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Addig this bot to your server
 > You can add ths bot to your server via this link: https://discord.com/oauth2/authorize?client_id=668783690674995210&scope=bot&permissions=3345416 or you can self-host it.
-Tutorial to self-host this bot is here: https://github.com/maks1116/selfhost.md/
+Tutorial to self-host this bot is here: https://github.com/maks1116/coderdojo/selfhost.md/
 
 ## 📝 Features & Commands
 
@@ -65,8 +65,8 @@ Examples: `1` or `1,2,3`
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/maks1116/evobot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
+1. [Fork the repository](https://github.com/maks1116/coderdojo/fork)
+2. Clone your fork: `git clone https://github.com/your-username/coderdojo.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -am 'Add some feature'`
 5. Push to the branch: `git push origin my-new-feature`

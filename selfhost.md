@@ -14,8 +14,8 @@ If deploying to Heroku make sure to create config variables
 ![heroku](https://i.imgur.com/iaoUePg.png?1)
 
 ```
-git clone https://github.com/maks1116/evobot.git
-cd evobot
+git clone https://github.com/maks1116/coderdojo.git
+cd coderdojo
 npm install
 ```
 
@@ -38,7 +38,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "/",
   "PRUNING": false,
-  "STAY_TIME": 30
+  "STAY_TIME": 30,
   "activities_list": [
     "Hello",
     "Type here custom bot status",

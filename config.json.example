@@ -8,12 +8,12 @@
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "/",
   "PRUNING": false,
-  "STAY_TIME": 30
+  "STAY_TIME": 30,
   "activities_list": [
     "Hello!",
     "/play",
     "/help",
-    "https://github.com/Maks1116/evobot"
+    "https://github.com/Maks1116/coderdojo"
   ],
   "MEME_SUBREDDITS": ["dank_memes", "meme", "funny"]
 }
