@@ -6,3 +6,6 @@
 4. Commit your changes: `git commit -am 'Add some feature'`
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
+
+# What can I add?
+Anything you want. You can add new feature, fix bug, update dependencies or change something in already existing part of bot.

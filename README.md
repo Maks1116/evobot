@@ -1,11 +1,11 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/eritislami/evobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maks1116/evobot)
 
-# This is fork from eritislami's bot
+**⚠️ Please note that I'm not good at English and I'm still learning it. If you see that I typed something wrong open issue in "issues" tab. ⚠️**
+
+**This is fork from eritislami's bot**
 
 # 🤖 EvoBot (Discord Music Bot)
 > EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
-
-**⚠️ Please note that I'm not good at English and I'm still learning it. If you see that I typed something wrong open issue in "issues" tab. ⚠️**
 
 ## Addig this bot to your server
 > You can add ths bot to your server via this link: https://discord.com/oauth2/authorize?client_id=668783690674995210&scope=bot&permissions=3345416 or you can self-host it.

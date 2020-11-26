@@ -12,7 +12,8 @@
   "activities_list": [
     "Hello!",
     "/play",
-    "/help"
+    "/help",
+    "https://github.com/Maks1116/evobot"
   ],
   "MEME_SUBREDDITS": ["dank_memes", "meme", "funny"]
 }
