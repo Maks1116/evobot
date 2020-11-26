@@ -1,48 +1,15 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/eritislami/evobot)
 
-![logo](https://repository-images.githubusercontent.com/186841818/8aa95700-7730-11e9-84be-e80f28520325)
+# This is fork from eritislami's bot
 
 # 🤖 EvoBot (Discord Music Bot)
 > EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
-## Requirements
+**⚠️ Please note that I'm not good at English and I'm still learning it. If you see that I typed something wrong open issue in "issues" tab. ⚠️**
 
-1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. YouTube Data API v3 Key **[Guide](https://developers.google.com/youtube/v3/getting-started)**  
-2.1 **(Optional)** Soundcloud Client ID **[Guide](https://github.com/zackradisic/node-soundcloud-downloader#client-id)**
-3. Node.js v12.0.0 or newer
-
-## 🚀 Getting Started
-
-If deploying to Heroku make sure to create config variables
-
-![heroku](https://i.imgur.com/iaoUePg.png?1)
-
-```
-git clone https://github.com/eritislami/evobot.git
-cd evobot
-npm install
-```
-
-After installation finishes you can use `node index.js` to start the bot.
-
-## ⚙️ Configuration
-
-Copy or Rename `config.json.example` to `config.json` and fill out the values:
-
-⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️
-
-```json
-{
-  "TOKEN": "",
-  "YOUTUBE_API_KEY": "",
-  "SOUNDCLOUD_CLIENT_ID": "",
-  "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "/",
-  "PRUNING": false,
-  "STAY_TIME": 30
-}
-```
+## Addig this bot to your server
+> You can add ths bot to your server via this link: https://discord.com/oauth2/authorize?client_id=668783690674995210&scope=bot&permissions=3345416 or you can self-host it.
+Tutorial to self-host this bot is here: https://github.com/maks1116/selfhost.md/
 
 ## 📝 Features & Commands
 
@@ -91,10 +58,14 @@ Examples: `1` or `1,2,3`
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Media Controls via Reactions
 ![reactions](https://i.imgur.com/j7CevsH.png)
+* Search and send gif (/gif)
+* Send tweet as Donald Trump (/trumptweet, /tt)
+* Send message as Clyde (/clyde)
+* Ping - checks bot latency to discord servers (/ping)
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/eritislami/evobot/fork)
+1. [Fork the repository](https://github.com/maks1116/evobot/fork)
 2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -am 'Add some feature'`
