@@ -4,7 +4,7 @@ module.exports = {
     name: "ping",
     description: "Gets bot latency to discord servers",
     execute(message) {
-        message.channel.send(lang.pinging).then(m =>{
+        message.channel.send("Pinging...").then(m =>{
             var ping = (m.createdTimestamp - message.createdTimestamp) / 2;
             var a = new MessageEmbed()
                 .setTitle("Ping: " + ping)
