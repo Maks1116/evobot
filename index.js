@@ -1,11 +1,11 @@
 /**
  * Module Imports
  */
-const { Client, Collection } = require("discord.js");
+const { Client, Collection, MessageEmbed, Message } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const { TOKEN, PREFIX } = require("./util/EvobotUtil");
-const {activities_list} = require("./config.json")
+const {activities_list, BANNED_GUILDS} = require("./config.json")
 
 const client = new Client({ disableMentions: "everyone" });
 
@@ -41,6 +41,18 @@ for (const file of commandFiles) {
 client.on("message", async (message) => {
   if (message.author.bot) return;
   if (!message.guild) return;
+
+  for(var i = 0; i < BANNED_GUILDS.length; i++) {
+    if (message.content.startsWith(PREFIX)) {
+      if (BANNED_GUILDS[i] == message.guild.id) {
+        var c = new MessageEmbed()
+          .setTitle("Server Banned!")
+          .setColor("#ff0000")
+          .setDescription("This discord server is banned by owner of bot. This means that bot won't work here.");
+        return message.channel.send(c);
+      }
+    }
+  }
 
   const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(PREFIX)})\\s*`);
   if (!prefixRegex.test(message.content)) return;

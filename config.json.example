@@ -15,5 +15,8 @@
     "/help",
     "https://github.com/Maks1116/coderdojo"
   ],
-  "MEME_SUBREDDITS": ["dank_memes", "meme", "funny"]
+  "MEME_SUBREDDITS": ["dank_memes", "meme", "funny"],
+  "BANNED_GUILDS": [
+    "744096549159567453"
+  ]
 }
