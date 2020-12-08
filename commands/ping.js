@@ -1,15 +1,8 @@
-const {MessageEmbed} = require("discord.js");
-
 module.exports = {
-    name: "ping",
-    description: "Gets bot latency to discord servers",
-    execute(message) {
-        message.channel.send("Pinging...").then(m =>{
-            var ping = (m.createdTimestamp - message.createdTimestamp) / 2;
-            var a = new MessageEmbed()
-                .setTitle("Ping: " + ping)
-                .setColor("RANDOM");
-            return message.channel.send(a);
-        });
-    }
-}
+  name: "ping",
+  cooldown: 10,
+  description: "Show the bot's average ping",
+  execute(message) {
+    message.reply(`📈 Average ping to API: ${Math.round(message.client.ws.ping)} ms`).catch(console.error);
+  }
+};

@@ -18,5 +18,6 @@
   "MEME_SUBREDDITS": ["dank_memes", "meme", "funny"],
   "BANNED_GUILDS": [
     "744096549159567453"
-  ]
+  ],
+  "DEFAULT_VOLUME": 100
 }
