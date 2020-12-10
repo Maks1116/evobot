@@ -6,6 +6,9 @@ module.exports = {
     name: "antispam",
     description: "Configures Anti Spam for this server",
     execute(message) {
+        if (!message.autor.hasPermission("MANAGE_CHANNELS")) {
+            return message.channel.send("Acces denied!");
+        }
         if (!message.content.split(" ")[1]) {
             var a = new MessageEmbed()
                 .setTitle("Argument required!")
